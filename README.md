@@ -1,11 +1,11 @@
 # APCSA Freedom Project
-by X
+By Kayla Weng
 
 ## Context
-The “Freedom Project” for APCSA is all about X. The purpose of this blog is to X.
+The “Freedom Project” for APCSA is all about learning and building tools that will create an possible solution to problems that people are having. The purpose of this blog is to demonstrate the process and steps that I took in order to land on the final project that I will be working on over the months.
 
 ## Content
-For my project, I am making X. This blog will walk through my process of independently studying X in order to make X.
+For my project, I am making hand sign learning game with camera recognition. The goal is to help users who are new to the Sign Language adapt easier to the new community using machine learning. This blog will walk through my process of independently studying ML5, a machine learning language to create a Web interface that will allow users to learn and spread awareness at the same time.
 
 ## Links
 
