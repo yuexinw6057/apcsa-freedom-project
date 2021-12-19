@@ -25,7 +25,9 @@ Previously after selecting my tool to learn, I have been following along the tut
 </html>
 ```
 The following code above imports material from google's learnable machine. In this code it exports the learning data set that I have been 'training' it for. The training process is rather simple, the larger the sample the more accurate it is. Since there are no data set for the American Sign Language(ASL) that looked the way I wanted to look, I started gathering the data.
-![image info](machineTeaching.png)
+![image info](machineTeaching.png =250x)
+
+
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
