@@ -28,6 +28,10 @@ The following code above imports material from google's learnable machine. In th
 
 <img src="machineTeaching.png" alt="drawing" width="500"/>
 
+Here, I am gathering some samples for the sign language. I first start training the machine to idenitify numbers 1-10. This the preview of how it is suppose to work when I implement it in my project in the future.
+
+<img src="demoMachineLearning.gif" alt="demo" width="500"/>
+
 
 [Previous](entry01.md) | [Next](entry03.md)
 
