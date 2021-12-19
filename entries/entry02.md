@@ -30,7 +30,7 @@ The following code above imports material from google's learnable machine. In th
 
 Here, I am gathering some samples for the sign language. I first start training the machine to idenitify numbers 1-10. This the preview of how it is suppose to work when I implement it in my project in the future.
 
-<img src="demoMachineLearning.gif" alt="demo" width="300"/>
+<img src="demoMachineLearning.gif" alt="demo" width="200"/>
 
 
 [Previous](entry01.md) | [Next](entry03.md)
