@@ -34,6 +34,18 @@ Here, I am gathering some samples for the sign language. I first start training 
 
 Although this is working as needed, I am faced with a challenging/confusion of importing the dataset back into the javascript folder. There was not a lot of information about ml5 besides their website and in depth explanation of how ml5 works, so I started looking into the alternative of [TensorFlow](https://www.tensorflow.org/js/tutorials). Apparently ml5 was based of tensorflow, so I imported the tensorflow starter code and from there, I started experimenting. My current engineering process is brainstorming possible solutions to implement ml5 into my project on html, css, and javascript. My next step would be using the data I collected and start coding with the assistant of the internet.
 
+I started writing some code for tensorflow.js in the mean time to start with the coding process:
+```
+ async function predict() {
+        const prediction = await model.predict(webcam.canvas);
+        for (let i = 0; i < maxPredictions; i++) {
+            const classPrediction =
+                prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+            labelContainer.childNodes[i].innerHTML = classPrediction;
+        }
+```
+This function above predicts the input of whatever the user is inputting throught the camera via the html phase. The predict function  can take in an image, video or canvas html element. However, for this project, I am mainly focusing on the video input of the users for hand poses.
+
 One of the skills that is coming in really handy is how-to-google again, since there are limited resources, I need to really search for content in the way that is really efficent to get the materials I need. In this case, I need to dig deeper.
 
 
