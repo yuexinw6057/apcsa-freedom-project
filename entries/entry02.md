@@ -32,6 +32,10 @@ Here, I am gathering some samples for the sign language. I first start training 
 
 <img src="demoMachineLearning.gif" alt="demo" width="200"/>
 
+Although this is working as needed, I am faced with a challenging/confusion of importing the dataset back into the javascript folder. There was not a lot of information about ml5 besides their website and in depth explanation of how ml5 works, so I started looking into the alternative of [TensorFlow](https://www.tensorflow.org/js/tutorials). Apparently ml5 was based of tensorflow, so I imported the tensorflow starter code and from there, I started experimenting. My current engineering process is brainstorming possible solutions to implement ml5 into my project on html, css, and javascript. My next step would be using the data I collected and start coding with the assistant of the internet.
+
+One of the skills that is coming in really handy is how-to-google again, since there are limited resources, I need to really search for content in the way that is really efficent to get the materials I need. In this case, I need to dig deeper.
+
 
 [Previous](entry01.md) | [Next](entry03.md)
 
