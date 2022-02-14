@@ -1,7 +1,34 @@
 # Entry 3
-##### X/X/XX
+##### 2/13/22
 
-Text
+Welcome back! On today's entry, I will give some updates about what I have been doing! Previously, I trained a machine model with series of photo datasets. I downloaded with TensorFlow.js and extracted files to begin coding.
+
+
+Initially, I had trouble importing the JSON file, I was struggling to access the file while attempting to code in a Javascript file. I first tried to use the parse method
+
+`var mydata = JSON.parse(data);`
+
+While attempting to make this code run with a code test, I came across an error that was an invalid data type. Although I was confused at first, I quickly found out that the code isnt loading a json file. It is actually just loading another javascript file which stores some hardcoded json as a variable named data. After understanding the reason behind the error, I went ahead and tried another way to access JSON file-- the asynchrous function.
+
+In the past, I have tried to understand [asynchrous functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function). But I was left dumbfounded. However, I tried again this time and understood that asychronous function is kind of a like a delayed function. It will not perform until the function is `fulfiled` or `rejected`. After some researching, I begin typing my code
+
+```
+let data;
+fetch("example.json").then(async(res) => {
+    data = await res.json();
+   // data = await res.text();
+    console.log(data.book);
+})
+
+```
+
+In this code snippet, I learned a two things:
+1. The arrow function - short handed way of writing function
+2. .json() function - converts the data types depending on what the programmer wants. To explore my curiousity, I used the `.text()` function to see what happens and it turns out to print out example.json's data in plain text.
+
+One I got overcame that issue, I begin getting into the good part-- beginning to code. To get the interface of camera identification working, I first tested out my code.
+
+<img src="errorPromise.png" alt="drawing" width="500"/>
 
 [Previous](entry02.md) | [Next](entry04.md)
 
