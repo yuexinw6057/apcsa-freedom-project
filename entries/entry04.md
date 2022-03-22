@@ -37,6 +37,9 @@ With that set up, this line of code will allow me to detect hands:
 const hands = await detector.estimateHands(image);
 
 ```
+Right now, I am gaining major solving problem skills. I thought about alternative ways that I can potentially solve my issue and not be stuck on one thing. Although it feels like I wasted a bit of time, learning javascript's async functions did not disappoint me.
+
+My next steps is to [import](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection/src/mediapipe) my data set which is already in tensorFlow.js format into the program. Which might take some configuration but I know that I will be able to do it.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
