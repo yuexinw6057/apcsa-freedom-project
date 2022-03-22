@@ -37,6 +37,29 @@ With that set up, this line of code will allow me to detect hands:
 const hands = await detector.estimateHands(image);
 
 ```
+
+Upon learning behind the scenes of what's happening, I learned the mechanics behind the scene:
+
+```
+[
+  {
+    score: 0.8,
+    handedness: ‘Right’,
+    keypoints: [
+      {x: 105, y: 107, name: "wrist"},
+      {x: 108, y: 160, name: "pinky_finger_tip"},
+      ...
+    ],
+    keypoints3D: [
+      {x: 0.00388, y: -0.0205, z: 0.0217, name: "wrist"},
+      {x: -0.025138, y: -0.0255, z: -0.0051, name: "pinky_finger_tip"},
+      ...
+    ]
+  }
+]
+```
+Each pixels represent the real life coordinates of the user's hands on the browser.
+
 Right now, I am gaining major solving problem skills. I thought about alternative ways that I can potentially solve my issue and not be stuck on one thing. Although it feels like I wasted a bit of time, learning javascript's async functions did not disappoint me.
 
 My next steps is to [import](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection/src/mediapipe) my data set which is already in tensorFlow.js format into the program. Which might take some configuration but I know that I will be able to do it.
