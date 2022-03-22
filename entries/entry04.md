@@ -7,6 +7,14 @@ You have made it to the fourth blog...things are getting a bit more serious now 
 
 ...Although that was the first thing I tried, I was still not able to understand the same error that it gave me. Which means that this was an error from the template code. Searching for an alternative `ML5.js` code template was a bit of a challenge since there was not a lot of resources out there. Knowing that `ml5.js` is the simplified version of `Tensorflow.js`, I decided to restart the whole entire process with [TensorFlow.js](https://www.tensorflow.org/js/tutorials/setup) instead.
 
+### Process
+
+I first started off by looking at some demos given for the website. And I realize that tensorFlow was better despite not being simplified like ML5. Tensorflow allows users to only detect handsigns with the ability to recoginze inidivual fingers like this:
+
+ ![Image showing what model can do](signLangEx.jpg)
+
+whereas ML5
+
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
