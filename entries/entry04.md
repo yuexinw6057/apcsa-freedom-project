@@ -15,7 +15,7 @@ I first started off by looking at some demos given for the website. And I realiz
 
 I am currently in my engineering process of planning the next steps. Althought I was moving onto my next stage, some errors allowed me to realize there is a better way to create the things that I want. With my planning process, I plan to start learning some factors of pose machine learning:
 
-<img src="MediaHandPipe.png" alt="Machine Learning Hand" width = "300"/>
+<img src="MediaHandPipe.png" alt="Machine Learning Hand" width = "500"/>
 
 
 
