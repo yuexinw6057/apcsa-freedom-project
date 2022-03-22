@@ -17,8 +17,26 @@ I am currently in my engineering process of planning the next steps. Althought I
 
 <img src="MediaHandPipe.png" alt="Machine Learning Hand" width = "500"/>
 
+Learning that there is already a pre-set for each part of our hands allowed me to start following some code:
 
+```javascript
+const model = handPoseDetection.SupportedModels.MediaPipeHands;
+const detectorConfig = {
+  runtime: 'mediapipe', // or 'tfjs',
+  solutionPath: 'https://cdn.jsdelivr.net/npm/@mediapipe/hands',
+  modelType: 'full'
+}
+const detector = await handPoseDetection.createDetector(model, detectorConfig);
 
+```
+The code above allowed me to use the pre-set hand movements into my browser.
+
+With that set up, this line of code will allow me to detect hands:
+
+```javascript
+const hands = await detector.estimateHands(image);
+
+```
 
 [Previous](entry03.md) | [Next](entry05.md)
 
