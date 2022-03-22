@@ -11,7 +11,7 @@ You have made it to the fourth blog...things are getting a bit more serious now 
 
 I first started off by looking at some demos given for the website. And I realize that tensorFlow was better despite not being simplified like ML5. Tensorflow allows users to only detect handsigns with the ability to recoginze inidivual fingers like this:
 
- ![Image showing what model can do](signLangEx.jpg)
+ <img src="signLangEx.jpg" alt="Image showing what model can do" width="500"/>
 
 whereas ML5
 
