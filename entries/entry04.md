@@ -1,7 +1,7 @@
 # Entry 4
 ##### 3/21/22
 
-### Welcome back!
+## Welcome back!
 
 You have made it to the fourth blog...things are getting a bit more serious now as I get closer to the deadline in April. Previously, there was an error on my code from the ML5.js starter code. The error seems to be unknown as I tried to debug. While trying to debug though however, I was not able to find the error since I added some of my own code into the program without pushing it to github. Which...ended up messing up the debugging process for me more since I do not know if the error was from the original template or if it happened after I added in my lines of code. With the advice of our instructor, Mr.Muller, he adviced me to restart from scratch and see if the code was broken before I added my line of code or afterwards.
 
@@ -13,7 +13,12 @@ I first started off by looking at some demos given for the website. And I realiz
 
  <img src="signLangEx.jpg" alt="Image showing what model can do" width="300"/>
 
-whereas ML5
+I am currently in my engineering process of planning the next steps. Althought I was moving onto my next stage, some errors allowed me to realize there is a better way to create the things that I want. With my planning process, I plan to start learning some factors of pose machine learning:
+
+<img src="MediaHandPipe.png" alt="Machine Learning Hand" width = "300"/>
+
+
+
 
 [Previous](entry03.md) | [Next](entry05.md)
 
