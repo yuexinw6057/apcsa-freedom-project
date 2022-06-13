@@ -12,8 +12,8 @@ Performing an elevator pitch not only allowed me to practice my public skills, i
 During my class presentation, I started realizing that my presentation skills have been improving over the last couple of years of my high school career. I remember the first time I presented, my voice was shaking and I would be speaking really fast without realizing what I was saying to the public. I also remember my slide shows were really just read base of the slides and the readers would die a slow boredom death. I now understood the presentation skills better.
 
 #### Sources
-*[Notes](https://docs.google.com/document/d/1bkMlVr6t83pH5QPWfL9qmYrdFVeO6L20wODqWNp-H1o/edit?usp=sharing)
-*[Presentation](https://docs.google.com/presentation/d/1meQsKBLjtdiLTM-znO8uCdfN5MhAGlhEjlovjfkRHZU/edit?usp=sharing)
+* [Notes](https://docs.google.com/document/d/1bkMlVr6t83pH5QPWfL9qmYrdFVeO6L20wODqWNp-H1o/edit?usp=sharing)
+* [Presentation](https://docs.google.com/presentation/d/1meQsKBLjtdiLTM-znO8uCdfN5MhAGlhEjlovjfkRHZU/edit?usp=sharing)
 
 #### Overview
 
